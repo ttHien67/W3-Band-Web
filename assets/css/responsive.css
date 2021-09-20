@@ -1,0 +1,111 @@
+/* PC */
+@media (min-width:1024px ){
+    
+}
+/* Mobile & Tablet */
+@media (max-width:1023px) {
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+    .place-body .place-ticket {
+        padding: 14px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    
+    #footer .social {
+        font-size: 48px;
+    }
+    #footer .social a {
+        margin: 0 8px;
+    }
+    #footer .copy-right a {
+        padding: 12px;
+        display: inline-block;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+
+}
+/* Tablet */
+@media (min-width:740px) and (max-width: 1024px){
+    
+}
+
+/* Mobile */
+@media (max-width:739px ){
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+    #header .mobile-menu-btn {
+        float: right;
+        padding: 0 21px;
+    }
+    #header .menu-icon {
+        color: #fff;
+        line-height: 46px;
+        display: inline-block;
+        font-weight: 700;
+    }
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+    }
+    #header .menu-icon:hover {
+        color: #000;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #content .about-text {
+        margin-bottom: 18px;
+    }
+    #content .mobile-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+}
